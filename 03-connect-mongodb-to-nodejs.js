@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 const mongoose = require('mongoose');
 
-const mongoURI = 'mongodb+srv://admin:1234@cluster0.pglm3yf.mongodb.net/';
+const mongoURI = 'connection-string';
 
 mongoose.connect(mongoURI)
   .then(() => console.log('Successfully connected to MongoDB!'))
