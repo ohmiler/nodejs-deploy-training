@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 // นำเข้า Book Model ที่เราสร้างไว้
 const Book = require('./models/Book');
 
-const mongoURI = 'mongodb+srv://admin:1234@cluster0.pglm3yf.mongodb.net/';
+const mongoURI = 'connection-string';
 
 mongoose.connect(mongoURI)
   .then(() => console.log('Successfully connected to MongoDB!'))
